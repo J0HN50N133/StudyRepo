@@ -1,0 +1,76 @@
+\contentsline {section}{\numberline {1}多元函数的基本概念}{1}% 
+\contentsline {subsection}{\numberline {1.1}区域}{1}% 
+\contentsline {subsubsection}{\numberline {1.1.1}邻域}{1}% 
+\contentsline {paragraph}{邻域}{1}% 
+\contentsline {paragraph}{去心邻域}{1}% 
+\contentsline {subsubsection}{\numberline {1.1.2}内点、外点、边界点和聚点}{1}% 
+\contentsline {paragraph}{注意：}{1}% 
+\contentsline {subparagraph}{1.点的类型}{2}% 
+\contentsline {subparagraph}{2.内点外点等的关系}{2}% 
+\contentsline {subparagraph}{3.}{2}% 
+\contentsline {subparagraph}{4.}{2}% 
+\contentsline {subparagraph}{5.}{2}% 
+\contentsline {subparagraph}{6.}{2}% 
+\contentsline {subparagraph}{7.}{2}% 
+\contentsline {paragraph}{一个例子}{2}% 
+\contentsline {paragraph}{开集}{2}% 
+\contentsline {paragraph}{连通}{2}% 
+\contentsline {paragraph}{开区域}{2}% 
+\contentsline {paragraph}{闭区域}{2}% 
+\contentsline {paragraph}{有界集、无界集}{4}% 
+\contentsline {subsection}{\numberline {1.2}二元函数}{4}% 
+\contentsline {paragraph}{定义}{4}% 
+\contentsline {paragraph}{值域}{4}% 
+\contentsline {paragraph}{定义域}{4}% 
+\contentsline {subsubsection}{\numberline {1.2.1}多元函数的基本性质}{4}% 
+\contentsline {paragraph}{奇偶性}{4}% 
+\contentsline {paragraph}{多元函数的极限}{4}% 
+\contentsline {paragraph}{连续性}{5}% 
+\contentsline {subparagraph}{闭区域上连续函数的性质}{5}% 
+\contentsline {section}{\numberline {2}偏导数}{5}% 
+\contentsline {subsection}{\numberline {2.1}定义}{5}% 
+\contentsline {subsection}{\numberline {2.2}运算法则}{6}% 
+\contentsline {paragraph}{几点说明:}{6}% 
+\contentsline {subparagraph}{1.}{6}% 
+\contentsline {subparagraph}{2.}{6}% 
+\contentsline {subsection}{\numberline {2.3}偏导数存在与连续的关系}{6}% 
+\contentsline {subsection}{\numberline {2.4}偏导数的几何意义}{6}% 
+\contentsline {subsection}{\numberline {2.5}高阶偏导数}{7}% 
+\contentsline {paragraph}{二阶偏导数}{7}% 
+\contentsline {subparagraph}{纯偏导数}{7}% 
+\contentsline {subparagraph}{混合偏导数}{7}% 
+\contentsline {subparagraph}{定理:}{7}% 
+\contentsline {section}{\numberline {3}全微分及其概念}{7}% 
+\contentsline {paragraph}{全增量的定义}{7}% 
+\contentsline {subsection}{\numberline {3.1}函数可微的条件}{8}% 
+\contentsline {paragraph}{必要条件}{8}% 
+\contentsline {paragraph}{充分条件}{8}% 
+\contentsline {section}{\numberline {4}多元复合函数的求导法则}{8}% 
+\contentsline {subsection}{\numberline {4.1}链式法则}{8}% 
+\contentsline {paragraph}{推导}{9}% 
+\contentsline {subsection}{\numberline {4.2}全微分形式不变性}{9}% 
+\contentsline {subsection}{\numberline {4.3}微分法则}{9}% 
+\contentsline {section}{\numberline {5}隐函数的求导公式}{9}% 
+\contentsline {subsubsection}{\numberline {5.0.1}一个方程的情形}{9}% 
+\contentsline {paragraph}{几何解释}{10}% 
+\contentsline {subsubsection}{\numberline {5.0.2}两个及以上方程}{10}% 
+\contentsline {section}{\numberline {6}微分法在几何上应用}{10}% 
+\contentsline {subsection}{\numberline {6.1}空间曲线的切线与法平面}{10}% 
+\contentsline {subsection}{\numberline {6.2}空间曲面的切平面与法线}{11}% 
+\contentsline {section}{\numberline {7}方向函数与梯度}{11}% 
+\contentsline {subsection}{\numberline {7.1}方向导数}{11}% 
+\contentsline {subsubsection}{\numberline {7.1.1}定义}{11}% 
+\contentsline {subsection}{\numberline {7.2}梯度}{12}% 
+\contentsline {section}{\numberline {8}多元函数的极值及其求法及其应用}{12}% 
+\contentsline {subsection}{\numberline {8.1}多元函数的泰勒公式}{12}% 
+\contentsline {subsection}{\numberline {8.2}二元函数}{12}% 
+\contentsline {subsection}{\numberline {8.3}极值点存在的必要条件}{12}% 
+\contentsline {paragraph}{定理(极值点存在的必要条件)}{12}% 
+\contentsline {subparagraph}{证明}{13}% 
+\contentsline {paragraph}{定义：}{13}% 
+\contentsline {subsection}{\numberline {8.4}极值点存在的充分条件}{13}% 
+\contentsline {paragraph}{1.}{13}% 
+\contentsline {paragraph}{2.}{13}% 
+\contentsline {paragraph}{3.}{13}% 
+\contentsline {subsection}{\numberline {8.5}条件极值}{13}% 
+\contentsline {section}{\numberline {9}向量和矩阵微分}{13}% 

@@ -1,0 +1,60 @@
+\contentsline {section}{\numberline {1}空间直角坐标系与向量代数}{1}% 
+\contentsline {subsection}{\numberline {1.1}空间直角坐标系}{1}% 
+\contentsline {subsection}{\numberline {1.2}向量及其线性运算}{1}% 
+\contentsline {subsubsection}{\numberline {1.2.1}加减法与数乘}{1}% 
+\contentsline {subsubsection}{\numberline {1.2.2}点乘/内积}{1}% 
+\contentsline {subsubsection}{\numberline {1.2.3}外积}{1}% 
+\contentsline {subsubsection}{\numberline {1.2.4}向量在坐标轴上的投影}{1}% 
+\contentsline {subsubsection}{\numberline {1.2.5}向量的坐标，数量积，向量积}{2}% 
+\contentsline {subparagraph}{方向角}{2}% 
+\contentsline {subparagraph}{柯西-施瓦茨不等式}{2}% 
+\contentsline {subparagraph}{混合积}{2}% 
+\contentsline {section}{\numberline {2}平面、曲面、空间曲线及其图形}{3}% 
+\contentsline {subsection}{\numberline {2.1}平面}{3}% 
+\contentsline {subsubsection}{\numberline {2.1.1}平面方程}{3}% 
+\contentsline {subparagraph}{点法式方程}{3}% 
+\contentsline {subparagraph}{三点式方程}{3}% 
+\contentsline {subparagraph}{截距式方程}{3}% 
+\contentsline {subsubsection}{\numberline {2.1.2}空间关系}{3}% 
+\contentsline {subparagraph}{两个平面之间的夹角}{3}% 
+\contentsline {subparagraph}{两平面的位置特征}{4}% 
+\contentsline {subparagraph}{点到平面距离}{4}% 
+\contentsline {subparagraph}{平行平面之间的距离}{4}% 
+\contentsline {subsection}{\numberline {2.2}直线}{5}% 
+\contentsline {subsubsection}{\numberline {2.2.1}方程}{5}% 
+\contentsline {subparagraph}{一般方程}{5}% 
+\contentsline {subparagraph}{两点式方程}{5}% 
+\contentsline {subparagraph}{点向式方程}{5}% 
+\contentsline {subparagraph}{参数方程}{5}% 
+\contentsline {subparagraph}{已知一般方程，怎么求直线方向向量？}{6}% 
+\contentsline {subsubsection}{\numberline {2.2.2}空间关系}{6}% 
+\contentsline {subparagraph}{两直线夹角}{6}% 
+\contentsline {subparagraph}{两直线之间距离}{6}% 
+\contentsline {subparagraph}{两直线公垂线的求法}{6}% 
+\contentsline {subsection}{\numberline {2.3}平面束}{6}% 
+\contentsline {subsection}{\numberline {2.4}曲面和空间曲线}{6}% 
+\contentsline {subsubsection}{\numberline {2.4.1}方程}{6}% 
+\contentsline {paragraph}{一般方程}{6}% 
+\contentsline {paragraph}{参数方程}{6}% 
+\contentsline {subsubsection}{\numberline {2.4.2}旋转面、柱面}{7}% 
+\contentsline {paragraph}{旋转面}{7}% 
+\contentsline {paragraph}{旋转椭球面}{7}% 
+\contentsline {subparagraph}{方程}{7}% 
+\contentsline {paragraph}{旋转单叶双曲面，旋转双叶双曲面}{8}% 
+\contentsline {paragraph}{旋转抛物面}{8}% 
+\contentsline {paragraph}{柱面}{8}% 
+\contentsline {subsubsection}{\numberline {2.4.3}重要曲面}{8}% 
+\contentsline {paragraph}{重要曲面1}{8}% 
+\contentsline {subparagraph}{球面}{8}% 
+\contentsline {subparagraph}{圆锥面}{8}% 
+\contentsline {subparagraph}{旋转双曲面}{8}% 
+\contentsline {paragraph}{重要曲面2}{8}% 
+\contentsline {subparagraph}{圆柱面}{8}% 
+\contentsline {subparagraph}{抛物柱面}{8}% 
+\contentsline {subparagraph}{椭圆柱面}{8}% 
+\contentsline {paragraph}{重要曲面3}{8}% 
+\contentsline {subparagraph}{椭球面}{8}% 
+\contentsline {subparagraph}{椭圆抛物面}{9}% 
+\contentsline {subparagraph}{马鞍面}{9}% 
+\contentsline {subparagraph}{单叶双曲面}{9}% 
+\contentsline {section}{\numberline {3}常见题型整理}{9}% 

@@ -1,0 +1,46 @@
+	                 List of Users
+---------------------------------------------------------------------------
+UserName                 GroupName                Shell                    
+root                     root                     /bin/bash                
+nobody                   nobody                   /usr/bin/nologin         
+dbus                     dbus                     /usr/bin/nologin         
+bin                      bin                      /usr/bin/nologin         
+daemon                   daemon                   /usr/bin/nologin         
+mail                     mail                     /usr/bin/nologin         
+ftp                      ftp                      /usr/bin/nologin         
+http                     http                     /usr/bin/nologin         
+systemd-journal-remote   systemd-journal-remote   /usr/bin/nologin         
+systemd-network          systemd-network          /usr/bin/nologin         
+systemd-resolve          systemd-resolve          /usr/bin/nologin         
+systemd-timesync         systemd-timesync         /usr/bin/nologin         
+systemd-coredump         systemd-coredump         /usr/bin/nologin         
+uuidd                    uuidd                    /usr/bin/nologin         
+dhcpcd                   dhcpcd                   /usr/bin/nologin         
+dnsmasq                  dnsmasq                  /usr/bin/nologin         
+rpc                      rpc                      /usr/bin/nologin         
+avahi                    avahi                    /usr/bin/nologin         
+colord                   colord                   /usr/bin/nologin         
+cups                     cups                     /usr/bin/nologin         
+flatpak                  flatpak                  /usr/bin/nologin         
+geoclue                  geoclue                  /usr/bin/nologin         
+git                      git                      /usr/bin/git-shell       
+mpd                      mpd                      /usr/bin/nologin         
+nm-openconnect           nm-openconnect           /usr/bin/nologin         
+nm-openvpn               nm-openvpn               /usr/bin/nologin         
+ntp                      ntp                      /bin/false               
+openvpn                  openvpn                  /usr/bin/nologin         
+polkitd                  polkitd                  /usr/bin/nologin         
+rtkit                    rtkit                    /usr/bin/nologin         
+sddm                     sddm                     /usr/bin/nologin         
+tss                      tss                      /usr/bin/nologin         
+usbmux                   usbmux                   /usr/bin/nologin         
+ljx                      ljx                      /bin/zsh                 
+nvidia-persistenced      nvidia-persistenced      /usr/bin/nologin         
+named                    named                    /usr/bin/nologin         
+tomcat9                  tomcat9                  /usr/bin/nologin         
+---------------------------------------------------------------------------
+/bin/bash:1
+/usr/bin/git-shell:1
+/bin/zsh:1
+/bin/false:1
+/usr/bin/nologin:33

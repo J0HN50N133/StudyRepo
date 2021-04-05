@@ -1,0 +1,46 @@
+10195101505
+
+root:x:0:0::/root:/bin/bash
+nobody:x:65534:65534:Nobody:/:/usr/bin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/bin/nologin
+bin:x:1:1::/:/usr/bin/nologin
+daemon:x:2:2::/:/usr/bin/nologin
+mail:x:8:12::/var/spool/mail:/usr/bin/nologin
+ftp:x:14:11::/srv/ftp:/usr/bin/nologin
+http:x:33:33::/srv/http:/usr/bin/nologin
+systemd-journal-remote:x:982:982:systemd Journal Remote:/:/usr/bin/nologin
+systemd-network:x:981:981:systemd Network Management:/:/usr/bin/nologin
+systemd-resolve:x:980:980:systemd Resolver:/:/usr/bin/nologin
+systemd-timesync:x:979:979:systemd Time Synchronization:/:/usr/bin/nologin
+systemd-coredump:x:978:978:systemd Core Dumper:/:/usr/bin/nologin
+uuidd:x:68:68::/:/usr/bin/nologin
+gdm:x:120:120:Gnome Display Manager:/var/lib/gdm:/sbin/nologin
+avahi:x:977:977:Avahi mDNS/DNS-SD daemon:/:/usr/bin/nologin
+colord:x:976:976:Color management daemon:/var/lib/colord:/usr/bin/nologin
+cups:x:209:209:cups helper user:/:/usr/bin/nologin
+dnsmasq:x:975:975:dnsmasq daemon:/:/usr/bin/nologin
+flatpak:x:974:974:Flatpak system helper:/:/usr/bin/nologin
+geoclue:x:973:973:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
+git:x:972:972:git daemon user:/:/usr/bin/git-shell
+nm-openconnect:x:971:971:NetworkManager OpenConnect:/:/usr/bin/nologin
+nm-openvpn:x:970:970:NetworkManager OpenVPN:/:/usr/bin/nologin
+ntp:x:87:87:Network Time Protocol:/var/lib/ntp:/bin/false
+polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/usr/bin/nologin
+rtkit:x:133:133:RealtimeKit:/proc:/usr/bin/nologin
+usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
+ljx:x:1000:1000::/home/ljx:/usr/bin/zsh
+nvidia-persistenced:x:143:143:NVIDIA Persistence Daemon:/:/usr/bin/nologin
+mpd:x:45:45::/var/lib/mpd:/usr/bin/nologin
+mysql:x:89:89::/var/lib/mysql:/bin/false
+sndiod:x:969:967::/var/lib/sndiod:/bin/false
+dhcpcd:x:966:966:dhcpcd privilege separation:/var/lib/dhcpcd:/usr/bin/nologin
+lightdm:x:965:965:Light Display Manager:/var/lib/lightdm:/usr/bin/nologin
+deepin-anything-server:x:964:964:Deepin Anthing Server:/:/usr/bin/nologin
+deepin_anything_server:x:963:963:Deepin Anything Server:/:/usr/bin/nologin
+amule:x:962:962:aMule Client:/var/lib/amule:/usr/bin/nologin
+gluster:x:960:960:GlusterFS daemons:/var/run/gluster:/usr/bin/nologin
+sddm:x:958:958:Simple Desktop Display Manager:/var/lib/sddm:/usr/bin/nologin
+privoxy:x:42:42:Privoxy:/:/usr/bin/nologin
+named:x:40:40:BIND DNS Server:/:/usr/bin/nologin
+tomcat9:x:58:58:Tomcat 9 user:/usr/share/tomcat9:/usr/bin/nologin

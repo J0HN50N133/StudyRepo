@@ -1,0 +1,65 @@
+* 可信软件开发
+** Part 1: Definition of a little language and discrete math refreshing
+** Part 2: Direct study of 10 simple programs
+*** What to do and How to prove it.
+**** Example : Interger Inverse
+     测试 \rarr 数学证明
+     Find *PRE-condition*, then check whether the question
+     satisfy the PRE-condition.
+     Find *POST-condition*, then check whether the answer we
+     find satisfy the POST-condition.
+     POST-condition说的是你的输出是如何与输入产生关联的，并且输出满足
+     什么条件。
+     （Hoare 逻辑）
+     - post-condition ::
+     - pre-condition ::
+
+**** Invariant
+     given a loop
+     #+BEGIN_SRC
+     A1;
+     while P do
+         A2
+     variant
+         Q
+     end
+     #+END_SRC
+     - Properties Q must hold just before and just after the
+       body of loop.
+     - *If* Q holds before A2, then it must hold after A2.
+     - The *invariant Q* holds also *at the end of the loop.*
+     - We have to prove that the initialisation establishes
+       the invariant.
+     - The *negation of the guard P* holds at the end of the loop.
+     - Therefore, at the end of loop, we get Q\land \not P. We want
+       to prove after the loop, the POST-condition is held.
+       Then we get a sequent(相继式)
+       PRE，\neg P, Q \vbar\mdash OST
+     - But there is a price to pay: the discovery of Q
+     - We have also to prove that the loop terminates.(Otherwise
+       the loop never stop and we can't get \neg P)
+     The interger inverse program (Part2\ndash1 page6)can be write in
+     #+BEGIN_SRC
+squareroot
+  r := 0;
+  while square(r + 1) less or equal to n do
+    r := r + 1
+  invariant
+    r in N
+    sqare(r) less than N
+  end
+     #+END_SRC
+     ===============
+     - Given an assignment A and a property P, we write
+       the following:
+       [A]P to denote *what is to be proved for P to hold*
+       just after Assignment.
+       e.g. [r := r+1]r^2 \le n
+       [r := r + 1] r^2 \le n
+       = P(r \larr r + 1)
+       = (r + 1)^2 \le n
+     - PRE |\mdash [A_1]Q *INI*
+     - PRE, P, Q |\mdash [A_2]Q *INV*
+     - PRE, \neg P, Q |- POST *POST*
+** Part 3: Introduction to a program construction method
+** Part 4: Constructing the programs studied in part 2

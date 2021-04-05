@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}二重积分的概念与性质}{1}% 
+\contentsline {subsection}{\numberline {1.1}定义}{1}% 
+\contentsline {subparagraph}{1}{1}% 
+\contentsline {subparagraph}{2}{1}% 
+\contentsline {paragraph}{1.体积问题}{1}% 
+\contentsline {subparagraph}{曲顶柱体}{1}% 
+\contentsline {paragraph}{求非均匀平面薄片的质量}{1}% 
+\contentsline {subparagraph}{1.}{2}% 
+\contentsline {subparagraph}{2.}{2}% 
+\contentsline {subparagraph}{3.}{2}% 
+\contentsline {subparagraph}{4.}{2}% 
+\contentsline {subsection}{\numberline {1.2}二重积分的存在定理}{2}% 
+\contentsline {section}{\numberline {2}二重积分的计算法}{3}% 
+\contentsline {section}{\numberline {3}二重积分的应用}{3}% 
+\contentsline {section}{\numberline {4}三重积分的概念及其计算法}{3}% 
+\contentsline {section}{\numberline {5}利用柱面坐标和球面坐标计算三重积分}{3}% 

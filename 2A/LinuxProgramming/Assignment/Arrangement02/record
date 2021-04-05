@@ -1,0 +1,6 @@
+2020年 10月 30日 星期五 18:45:44 CST : 
+ bbb does not exist in A.
+cp B/bbb A/
+2020年 10月 30日 星期五 18:48:46 CST : 
+ C does not exist in A.
+cp B/C A/

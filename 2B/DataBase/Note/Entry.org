@@ -1,0 +1,118 @@
+* DataBase Systems and its Application
+** Chapter01 Introduction
+*** DBS Applications
+    区分几个概念，Database, Database Management System
+    - Database :: Database is an Organized collection of inter-related data that *models* some aspect of the realworld.
+    - DBMS(Database Management System) :: A collection of interrelated *data* and a set of *programs* to access those data.
+*** Purpose of Database System
+    数据库总的目的是为了高效且方便地检索和存储数据。
+    早期的数据库是基于文件系统的, 由于文件系统本身的限制，这些数据库系统产生了并发性，数据隔离等问题。数据库系统总的要解决七个问题
+    - Data redundancy and inconsistency
+
+      使用文件系统存储数据时，文件可能在磁盘上有多份拷贝，这不仅造成了磁盘空间浪费同时可能导致数据不一致问题。
+    - Difficulty in accessing data
+
+      数据表的条目一旦多了起来，使用CSV等文件存储的方式检索速度太慢，一方面我们不能把整个文件加载到内存里以后再进行检索，所以还有IO瓶颈(虽然通过流可以缓解问题)，另一方面直接打开文件查找条目的做法太简单粗暴检索效率不高。
+    - Data isolation
+
+      一条记录如果分成几段存储在不同文件里，CSV等文件很难维护这几段之间的关系，必须通过数据库来维护关系。
+    - Integrity problems
+
+      数据完整性问题，用CSV之类的格式的话必须保证每一条记录都是完整的，假如某个字段不小心在输入的时候输少了那么整个数据库就错了。
+    - Atomicity of updates
+
+      增删改查的原子性，一个典型的应用场景就是转账。一条转账操作必须保证具有原子性，不能说我刚刚扣了100块钱，钱还没转到操作被打断了。
+    - Concurrent access by multiple users
+
+      文件系统天然的不支持多个用户同时使用一个文件，也就是说多个用户无法同时使用文件。
+    - Security problems
+
+      不是每个用户都能拿到所有的数据，数据库必须做好权限管理等问题来保证安全性。
+*** View of Data
+**** Data Models
+     数据库底下的就是数据模型。
+     - 数据模型 :: A collection of conceptual tool for describing data, data relationships, data semantics, and consistency constraints.
+       数据模型主要有以下几种
+       - Relational Model
+       - Entity-Relationship Mode(E-R)
+       - Semi-structured Data Model
+       - Object-Based Data Model
+*** Database Engine
+    数据库从功能上来说主要分为三部分
+    1. storage manager
+       功能: 为储存在数据库中最底层的low-level data和上层的DML操作之间提供接口，与raw data打交道，真正负责增插查改。
+       storage又分为几部分
+       - Authorization and integrity manager
+       - Transaction manager
+         1. 保证即使数据库系统出现问题了(例如突然断电)数据仍然具有一致性。
+         2. 允许并发访问数据库，保证数据库的并发操作不出错。
+       - File manager
+         负责在磁盘上分配空间以及决定用什么数据结构在磁盘上保存信息。
+       - Buffer manager
+         将硬盘上的raw data读入内存，负责管理数据库的cache。
+    2. the query processor
+       - DDL interpreter
+         解释DDL语句并将定义存入数据字典
+       - DML compiler
+         把DML语句编译为query evaluation engine的语句，同时发挥优化DML语句的作用。
+       - Query evaluation engin
+         执行DML编译过来的指令。
+
+
+    1. the transaction managment
+       功能：保证数据操作的原子性，确保数据的一致性以及持久性。
+       - recovery manager :: response for failure recovery
+       - concurrency-control manager
+    [[./PicSrc/System_structure.png]]
+
+** Relational Model
+
+   - superkey :: 在关系中能唯一标识元组的属性集称为关系模式的超键
+   - condidate key :: 最小的超键,一旦去掉一个元素就不成为超键
+   - primary key :: 用户选作元组标识的一个候选键称为主键
+
+   - Relation :: A relation is unordered set that contain the relationship of attributes that represent entities
+     - /n-ary/ Relation = Table with /n/ columns.
+       - Tuple :: A tuple is a set of attribute values in the relation.
+         - Values are (normally) atomic/scalar.
+         - The special value *NULL* is a member of every domain.
+
+** Chapter03 Basic SQl
+
+   - AS: AS can rename a relation. The AS clause can appear in both the
+   SELECT and FROM clauses.
+   - LIKE: 字符串匹配。
+   - 集合操作(除了UNION系列MySql都不支持)
+     - UNION, UNION ALL
+       - UNION :: The union operation automatically eliminates duplicates
+       - UNION ALL :: If we want to retain all duplicates, we must write union all in place of union.
+     - INTERSECT, INTERSECT ALL
+       - INTERSECT :: The intersect operation automatically eliminates duplicates.
+         For example, if it were the case that four sections of ECE-101
+         were taught in the Fall 2017 semester and two sections of ECE-101
+         were taught in the Spring 2018 semester, then there would be only
+         one tuple with ECE-101 in the result.
+       - INTERSECT ALL :: multivalue set的交集方式，即对一个元素
+         而言取它两个集合中出现最少的次数作为它在结果集中出现的次数。
+     - EXCEPT, EXCEPT ALL
+       - EXCEPT :: The except operation outputs all tuples from its first input that do not occur in the second input.
+       - EXCEPT ALL :: If we want to retain duplicates, we must write except all in place of except.
+       The number of duplicate copies of a tuple in the result is equal to the number of duplicate
+       copies in c_1 minus the number of duplicate copies in c_2, provided that the difference is positive.
+
+   - 通配符
+     - %: 任意长度的字符串
+     - _: 任意一个字符
+     - \: 转义字符
+   - HAVING:  SQL applies predicates in the having clause
+   after groups have been formed, so aggregate functions
+   may be used in the having clause.
+   - 带groupby, having的sql运算顺序
+     1. 和没有聚集函数的查询一样，先算from子句得到一个关系。
+     2. 如果有where子句，where的谓词应用于上一句得到的关系上。
+     3. 如果有group by子句，上一步得到的关系会被group by分组
+     4. 如果有having子句，having将被应用于上一部得到的每一个分组；
+        不符合条件的分组将被移除
+     5. select子句应用于结果集
+   - Nested Subqueries
+     -

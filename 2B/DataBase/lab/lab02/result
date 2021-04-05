@@ -1,0 +1,78 @@
+                          List of databases
+    Name    | Owner | Encoding | Collate | Ctype | Access privileges 
+------------+-------+----------+---------+-------+-------------------
+ abctrading | joe   | UTF8     | C       | C     | 
+ db_tpcc    | joe   | UTF8     | C       | C     | 
+ postgres   | omm   | UTF8     | C       | C     | 
+ studentdb  | joe   | UTF8     | C       | C     | 
+ template0  | omm   | UTF8     | C       | C     | =c/omm           +
+            |       |          |         |       | omm=CTc/omm
+ template1  | omm   | UTF8     | C       | C     | =c/omm           +
+            |       |          |         |       | omm=CTc/omm
+(6 rows)
+
+DROP DATABASE
+CREATE DATABASE
+You are now connected to database "abctrading" as user "joe".
+No relations found.
+gsql:trade.sql:15: NOTICE:  table "products" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+                               Table "public.products"
+  Column  |         Type          | Modifiers | Storage  | Stats target | Description 
+----------+-----------------------+-----------+----------+--------------+-------------
+ id       | integer               |           | plain    |              | 
+ category | character(3)          |           | extended |              | 
+ name     | character varying(20) |           | extended |              | 
+ quantity | integer               |           | plain    |              | 
+ price    | double precision      |           | plain    |              | 
+Has OIDs: no
+Options: orientation=row, compression=no
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+  id  | category |   name    | quantity | price 
+------+----------+-----------+----------+-------
+ 1001 | PEN      | Pen Red   |     5000 |  1.23
+ 1001 | PEN      | Pen Blue  |     8000 |  1.25
+ 1001 | PEN      | Pen Black |     2000 |  1.25
+ 1001 | PCL      | Pencil 2B |    10000 |   .49
+ 1001 | PCL      | Pencil 2H |     9000 |   .48
+(5 rows)
+
+  id  | category |   name    | quantity | price 
+------+----------+-----------+----------+-------
+ 1001 | PCL      | Pencil 2B |    10000 |   .49
+ 1001 | PCL      | Pencil 2H |     9000 |   .48
+(2 rows)
+
+  id  | category |   name    | quantity | price 
+------+----------+-----------+----------+-------
+ 1001 | PEN      | Pen Red   |     5000 |  1.23
+ 1001 | PEN      | Pen Blue  |     8000 |  1.25
+ 1001 | PEN      | Pen Black |     2000 |  1.25
+(3 rows)
+
+UPDATE 5
+  id  | category |   name    | quantity | price 
+------+----------+-----------+----------+-------
+ 1001 | PEN      | Pen Red   |     5000 | 1.353
+ 1001 | PEN      | Pen Blue  |     8000 | 1.375
+ 1001 | PEN      | Pen Black |     2000 | 1.375
+ 1001 | PCL      | Pencil 2B |    10000 |  .539
+ 1001 | PCL      | Pencil 2H |     9000 |  .528
+(5 rows)
+
+DELETE 1
+  id  | category |   name    | quantity | price 
+------+----------+-----------+----------+-------
+ 1001 | PEN      | Pen Blue  |     8000 | 1.375
+ 1001 | PEN      | Pen Black |     2000 | 1.375
+ 1001 | PCL      | Pencil 2B |    10000 |  .539
+ 1001 | PCL      | Pencil 2H |     9000 |  .528
+(4 rows)
+
+total time: 5512  ms

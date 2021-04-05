@@ -1,0 +1,42 @@
+* Parallel Program Design
+
+** Introduction to Parallel Architectures
+
+*** 冯诺依曼架构
+    - Component
+      有五个部分组成
+      1. Control
+      2. Datapath(数据通路AKA. 运算器)
+      3. Memory
+      4. Input
+      5. Output
+    - Why Von Neumann Architectures make sense?
+      在早期, 计算机的软件是固化在硬件里的,软件不可以和硬件分离, 直到冯诺依曼结构才能实现软硬分离.
+      不过, 并行程序还是要依照硬件的结构来设计才能发挥最大性能
+    - Von Neumann bottleneck
+      存储和运算分开的架构影响了性能.为了改善这个bottleneck而引入了memory hierarchy
+*** Memory Hierarchy
+---------------
+-  Registers  -
+---------------
+
+-----------
+-  Cache  -
+-----------
+
+-------------
+-  Memory   -
+-------------
+
+----------
+-  Disk  -
+----------
+
+----------
+-  Tape  -
+----------
+
+- 存储架构 :: 层级
+- 存储技术 :: SRAM, DRAM
+
+** Distrubuted-Memory Programming with MPI

@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "87ab11f91b83b2c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "05ce2b212c8c3173",
+        "type": "split",
+        "children": [
+          {
+            "id": "c2bedef9fc69d238",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随机变量及其分布.md",
+                "mode": "source"
+              }
+            },
+            "group": "27c137a3312c26d7"
+          },
+          {
+            "id": "e8fd5aa8fb7cb55d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随机变量及其分布.md",
+                "mode": "preview"
+              }
+            },
+            "group": "27c137a3312c26d7"
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b1180dae8dc25ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4bc07f4db30a94d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbfbe81e4bfe3012",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc5813c7184cdeff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          },
+          {
+            "id": "9ba9c8488ff9f48c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2d8e504499d31736",
+    "type": "split",
+    "children": [
+      {
+        "id": "06ed39d4821676a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "362674f29d94454d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "随机变量及其分布.md"
+              }
+            }
+          },
+          {
+            "id": "50e5f11d0a61e873",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          },
+          {
+            "id": "64392aa50ebc17fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "随机变量及其分布.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "随机变量及其分布.md",
+    "第一章.md",
+    "main.md"
+  ]
+}

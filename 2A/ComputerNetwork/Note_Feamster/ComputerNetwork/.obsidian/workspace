@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "b3a7dbb5c5a688b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f5a34014b95f14",
+        "type": "split",
+        "children": [
+          {
+            "id": "0a4d2ae4d6d10805",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "main.md",
+                "mode": "source"
+              }
+            },
+            "group": "6d9fbffac044f0ba"
+          },
+          {
+            "id": "ec2a129a226ff32e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "main.md",
+                "mode": "preview"
+              }
+            },
+            "group": "6d9fbffac044f0ba"
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35a241f5de55103f",
+    "type": "split",
+    "children": [
+      {
+        "id": "be458b8e66842476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1ada5057125ec6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d527f2db3d3c9788",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          },
+          {
+            "id": "6b919d836a08bb71",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3e81487b3c675e39",
+    "type": "split",
+    "children": [
+      {
+        "id": "45b2b46e35e331f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0778d6dac322489",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "main.md"
+              }
+            }
+          },
+          {
+            "id": "d01e250455695830",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          },
+          {
+            "id": "381fb7814e384186",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "main.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "main.md",
+    "报文交换,电路交换和分组交换.md",
+    "Untitled.md",
+    "note.md"
+  ]
+}
